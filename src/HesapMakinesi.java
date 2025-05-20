@@ -4,7 +4,7 @@ public class HesapMakinesi {
     public static void main(String[] args) {
         int secim;
         double deger1, deger2;
-        double sonuc = 0;
+        double sonuc;
 
         Scanner scanner = new Scanner(System.in);
 
