@@ -1,15 +1,16 @@
+package MineFieldGame;
 
 import java.util.Random;
 import java.util.Scanner;
 
 public class MineSweeper {
-        static Scanner scanner = new Scanner(System.in);
-        static Random rand = new Random();
-        int row;
-        int col;
-        int mineCount;
-        char[][] board;
-        char[][] visibleBoard;
+    static Scanner scanner = new Scanner(System.in);
+    static Random rand = new Random();
+    int row;
+    int col;
+    int mineCount;
+    char[][] board;
+    char[][] visibleBoard;
 
 
 
